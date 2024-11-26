@@ -12,10 +12,11 @@ AtlasInstall Package Manager (AIPM) is a simple command-line tool designed to do
 - **Simple command-line interface**: Provides easy commands for installing and getting information.
 - **Progress tracking**: Displays a progress bar for package downloads and extraction.
 - **Automatic directory creation**: If the target directory doesn't exist, it gets created automatically.
+- **Makes use of the new "sudo" command on windows 24H2***: required to use sudo ./aipm.exe to use the app
   
 ## Requirements
 
-- Windows OS.
+- Windows OS 24H2 and later.
 - Potato PC supported
 
 ### Example Commands
@@ -23,10 +24,10 @@ AtlasInstall Package Manager (AIPM) is a simple command-line tool designed to do
 To install a package:
 
 ```bash
-./aipm.exe install <package_name>
+sudo ./aipm.exe install <package_name>
 ```
 
 Info on installer:
 ```bash
-./aipm.exe info
+sudo ./aipm.exe info
 ```
