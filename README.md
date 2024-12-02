@@ -1,3 +1,5 @@
+VIEW CHANGELOG AT THE BOTTOM
+
 # AtlasInstall Package Manager for Windows
 
 AtlasInstall Package Manager (AIPM) is a simple command-line tool designed to download, extract, and install packages on Windows using a progress bar window to track installation. The tool connects to a remote repository and fetches ZIP files to a specified directory. It includes the following features:
@@ -64,3 +66,7 @@ Info on installer:
 ```bash
 sudo aipm info
 ```
+
+# Changelog
+update 1.0.0 - initial release
+update 1.1.0 - added update@self command for windows
