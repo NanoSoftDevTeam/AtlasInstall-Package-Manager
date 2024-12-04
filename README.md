@@ -68,7 +68,7 @@ sudo aipm install <package_name>
 
 Info on installer:
 ```bash
-sudo aipm info
+aipm info
 ```
 
 # Changelog
