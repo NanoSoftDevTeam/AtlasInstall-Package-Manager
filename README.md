@@ -53,6 +53,10 @@ AtlasInstall Package Manager (AIPM) is a simple command-line tool designed to do
 
 - Any linux OS.
 - Potato PC supported
+- unzip program:
+```bash
+sudo apt install unzip
+```
 
 ### Example Commands
 
